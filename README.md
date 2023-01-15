@@ -2,6 +2,8 @@
 
 Toolbox is is a tool for linux to manage containers via command line. This is useful for development to keep the host OS clean.
 
+![Neofetch screenshot inside toolbox](images/screenshot.png)
+
 This guide is using **Fedora Silverblue as the Host OS** and refer to this GitHub repo <https://github.com/castrojo/images>. My main distro to test my script development is using **Ubuntu LTS** because this is the most popular linux distribution, but it is also possible to test using other distributions.
 
 If we have many containers, we can list them using:
@@ -28,11 +30,6 @@ By default this command will create **Fedora** container automatically based on 
 
 ```
 $ toolbox create
-```
-
-After finished, we can enter the container using
-
-```
 $ toolbox enter
 ```
 
@@ -48,6 +45,7 @@ _f32_ can be replace using version number of the distro
 
 ```
 $ toolbox create -i quay.io/toolbx-images/ubuntu-toolbox:22.04
+$ toolbox enter ubuntu-toolbox-22.04
 ```
 
 _22.04_ can be replace using version number of the distro
@@ -57,6 +55,7 @@ _22.04_ can be replace using version number of the distro
 
 ```
 $ toolbox create --image quay.io/toolbx-images/debian-toolbox:11
+$ toolbox enter debian-toolbox-11
 ```
 
 _11_ can be replace using version number of the distro
