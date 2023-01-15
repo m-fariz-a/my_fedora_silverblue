@@ -2,11 +2,11 @@
 
 Toolbox is is a tool for linux to manage containers via command line. This is useful for development to keep the host OS clean.
 
-This guide is using Fedora Silverblue as the Host OS and refer to this GitHub repo <https://github.com/castrojo/images>
+This guide is using **Fedora Silverblue as the Host OS** and refer to this GitHub repo <https://github.com/castrojo/images>. My main distro to test my script development is using **Ubuntu LTS** because this is the most popular linux distribution, but it is also possible to test using other distributions.
 
 ## create container :
 
-By default this command will create fedora container automatically based on the host version
+By default this command will create **Fedora** container automatically based on the host version
 
 ```
 $ toolbox create
