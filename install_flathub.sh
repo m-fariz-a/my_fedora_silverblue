@@ -8,6 +8,7 @@ net.cozic.joplin_desktop \
 com.belmoussaoui.Decoder \
 com.valvesoftware.Steam \
 com.vscodium.codium \
+org.gnome.gitlab.somas.Apostrophe \
 org.gnu.pspp \
 org.gnucash.GnuCash \
 org.videolan.VLC \
