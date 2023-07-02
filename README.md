@@ -2,6 +2,9 @@
 
 This is my documentation on how to setup my fedora silverblue.
 
+![screenshot_silverblue](images/ss_silverblue.png)
+![screenshot_silverblue_full](images/ss_silverblue_full.png)
+
 ## Folder
 
 * toolbox : my toolbox container documentation for data science purpose
@@ -12,4 +15,4 @@ This is my documentation on how to setup my fedora silverblue.
 
 * **swap_fedora_flatpak_wflathub.sh** : Swao all Flatpak app from fedora flatpak repo to Flathub to get more uptodate software
 
-* **install_flathub.sh** : to install all of my daily applications from flathub repo 
+* **install_flathub.sh** : to install all of my daily applications from flathub repo
