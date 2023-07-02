@@ -26,7 +26,6 @@ org.pitivi.Pitivi \
 org.inkscape.Inkscape \
 org.jupyter.JupyterLab \
 com.bitwarden.desktop \
-com.mattjakeman.ExtensionManager \
 com.github.maoschanz.drawing \
 de.haeckerfelix.Fragments \
 org.filezillaproject.Filezilla \
