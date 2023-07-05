@@ -8,4 +8,8 @@ unrar \
 gnome-shell-extension-appindicator \
 gnome-shell-extension-caffeine \
 gnome-shell-extension-dash-to-dock \
-gnome-shell-extension-gsconnect
+gnome-shell-extension-gsconnect \
+gnome-shell-extension-workspace-indicator \
+gnome-shell-extension-system-monitor-applet \
+gnome-shell-extension-just-perfection \
+gnome-shell-extension-dash-to-panel
