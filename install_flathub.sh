@@ -7,6 +7,8 @@ org.libreoffice.LibreOffice \
 net.cozic.joplin_desktop \
 com.belmoussaoui.Decoder \
 com.valvesoftware.Steam \
+runtime/com.valvesoftware.Steam.CompatibilityTool.Proton/x86_64/stable \
+runtime/com.valvesoftware.Steam.CompatibilityTool.Proton-GE/x86_64/stable \
 com.vscodium.codium \
 org.gnome.gitlab.somas.Apostrophe \
 org.gnu.pspp \
