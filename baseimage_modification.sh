@@ -12,4 +12,5 @@ gnome-shell-extension-gsconnect \
 gnome-shell-extension-workspace-indicator \
 gnome-shell-extension-system-monitor-applet \
 gnome-shell-extension-just-perfection \
-gnome-shell-extension-dash-to-panel
+gnome-shell-extension-dash-to-panel \
+gnome-shell-extension-blur-my-shell
