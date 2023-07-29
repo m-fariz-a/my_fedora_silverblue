@@ -5,6 +5,7 @@ rpm-ostree install \
 gnome-boxes \
 gnome-tweaks \
 unrar \
+yaru-theme \
 gnome-shell-extension-appindicator \
 gnome-shell-extension-caffeine \
 gnome-shell-extension-dash-to-dock \
