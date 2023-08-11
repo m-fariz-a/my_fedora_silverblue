@@ -1,7 +1,10 @@
+# remove fedora flatpak
+flatpak uninstall -y \
+org.gnome.Extensions
+
 # swap fedora flatpak with flathub
 flatpak install -y --reinstall flathub \
 org.fedoraproject.MediaWriter \
-org.gnome.Extensions \
 org.gnome.Calculator \
 org.gnome.Calendar \
 org.gnome.Characters \
