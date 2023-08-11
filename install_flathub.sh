@@ -1,9 +1,11 @@
 # install application that i need as flatpak
 flatpak install -y flathub \
+com.mattjakeman.ExtensionManager \
 com.github.tchx84.Flatseal \
 org.mozilla.firefox \
 org.chromium.Chromium \
 org.libreoffice.LibreOffice \
+org.gnome.Boxes \
 net.cozic.joplin_desktop \
 com.belmoussaoui.Decoder \
 com.valvesoftware.Steam \
