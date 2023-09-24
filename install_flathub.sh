@@ -29,6 +29,7 @@ org.gnu.pspp \
 org.gnucash.GnuCash \
 org.videolan.VLC \
 com.obsproject.Studio \
+com.obsproject.Studio.Plugin.BackgroundRemoval \
 com.belmoussaoui.Decoder \
 com.github.jeromerobert.pdfarranger \
 org.gimp.GIMP \
