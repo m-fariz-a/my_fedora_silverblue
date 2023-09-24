@@ -1,40 +1,51 @@
 # install application that i need as flatpak
+
+## utilities
 flatpak install -y flathub \
-com.mattjakeman.ExtensionManager \
 com.github.tchx84.Flatseal \
+org.gnome.FileRoller \
+ca.desrt.dconf-editor \
+com.mattjakeman.ExtensionManager
+
+## browser, chat, internet
+flatpak install -y flathub \
+org.gnome.Evolution \
+re.sonny.Junction \
 org.mozilla.firefox \
-org.chromium.Chromium \
-org.libreoffice.LibreOffice \
-org.gnome.Boxes \
+com.google.Chrome \
+com.microsoft.Edge \
+org.telegram.desktop \
+com.discordapp.Discord \
+com.rtosta.zapzap \
+us.zoom.Zoom
+
+## personal tools
+flatpak install -y flathub \
+com.raggesilver.BlackBox \
+com.bitwarden.desktop \
 net.cozic.joplin_desktop \
-com.belmoussaoui.Decoder \
-com.valvesoftware.Steam \
-runtime/com.valvesoftware.Steam.CompatibilityTool.Proton/x86_64/stable \
-runtime/com.valvesoftware.Steam.CompatibilityTool.Proton-GE/x86_64/stable \
-com.vscodium.codium \
-org.gnome.gitlab.somas.Apostrophe \
+org.gnome.Boxes \
 org.gnu.pspp \
 org.gnucash.GnuCash \
 org.videolan.VLC \
 com.obsproject.Studio \
-org.telegram.desktop \
-com.discordapp.Discord \
-io.github.mimbrero.WhatsAppDesktop \
-org.gnome.FileRoller \
-ca.desrt.dconf-editor \
+com.belmoussaoui.Decoder \
 com.github.jeromerobert.pdfarranger \
-org.remmina.Remmina \
-us.zoom.Zoom \
-re.sonny.Junction \
 org.gimp.GIMP \
 org.pitivi.Pitivi \
 org.inkscape.Inkscape \
-org.jupyter.JupyterLab \
-com.bitwarden.desktop \
 com.github.maoschanz.drawing \
-de.haeckerfelix.Fragments \
-org.filezillaproject.Filezilla \
-io.github.spacingbat3.webcord \
-org.gnome.Evolution \
-rest.insomnia.Insomnia \
-de.haeckerfelix.Shortwave
+de.haeckerfelix.Fragments
+
+## work
+flatpak install -y flathub \
+org.libreoffice.LibreOffice \
+com.visualstudio.code \
+org.remmina.Remmina \
+org.filezillaproject.Filezilla
+
+## gaming
+flatpak install -y flathub \
+com.valvesoftware.Steam \
+runtime/com.valvesoftware.Steam.CompatibilityTool.Proton/x86_64/stable \
+runtime/com.valvesoftware.Steam.CompatibilityTool.Proton-GE/x86_64/stable
