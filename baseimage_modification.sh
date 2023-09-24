@@ -5,6 +5,4 @@ rpm-ostree install \
 gnome-tweaks \
 unrar \
 gnome-backgrounds-extras \
-gnome-shell-extension-appindicator \
-gnome-shell-extension-caffeine \
-gnome-shell-extension-gsconnect
+virt-manager
