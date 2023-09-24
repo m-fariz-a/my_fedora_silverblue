@@ -11,7 +11,5 @@ R \
 rstudio-desktop &&
 
 # setup basic python libs
-pip install spyder jupyterlab pandas xlrd openpyxl seaborn &&
-mkdir ~/pyenv &&
-python3.9 -m venv ~/pyenv/py-testing &&
+pip install spyder jupyterlab pandas xlrd openpyxl seaborn
 
