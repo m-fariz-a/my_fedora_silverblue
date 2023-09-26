@@ -5,5 +5,5 @@ rpm-ostree install \
 gnome-tweaks \
 unrar \
 gnome-backgrounds-extras \
-virt-manager \
-steam-devices
+virt-manager edk2-ovmf swtpm-tools \
+steam-devices 
