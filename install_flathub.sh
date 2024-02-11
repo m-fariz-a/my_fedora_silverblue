@@ -1,6 +1,7 @@
 # install application that i need as flatpak
 
 ## utilities
+echo "install app for utilities ..."
 flatpak install -y flathub \
 com.github.tchx84.Flatseal \
 org.gnome.FileRoller \
@@ -8,6 +9,7 @@ ca.desrt.dconf-editor \
 com.mattjakeman.ExtensionManager
 
 ## browser, chat, internet
+echo "install app for browser, chat, internet ..."
 flatpak install -y flathub \
 org.gnome.Evolution \
 re.sonny.Junction \
@@ -20,6 +22,7 @@ com.rtosta.zapzap \
 us.zoom.Zoom
 
 ## personal tools
+echo "install app for personal tools ..."
 flatpak install -y flathub \
 com.raggesilver.BlackBox \
 com.bitwarden.desktop \
@@ -38,6 +41,7 @@ com.github.maoschanz.drawing \
 de.haeckerfelix.Fragments
 
 ## work
+echo "install app for work ..."
 flatpak install -y flathub \
 org.libreoffice.LibreOffice \
 org.onlyoffice.desktopeditors \
@@ -46,6 +50,7 @@ org.remmina.Remmina \
 org.filezillaproject.Filezilla
 
 ## gaming
+echo "install app for gaming ..."
 flatpak install -y flathub \
 com.valvesoftware.Steam \
 runtime/com.valvesoftware.Steam.CompatibilityTool.Proton/x86_64/stable \
