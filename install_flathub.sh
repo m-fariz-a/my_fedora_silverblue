@@ -11,7 +11,7 @@ com.mattjakeman.ExtensionManager
 flatpak install -y flathub \
 org.gnome.Evolution \
 re.sonny.Junction \
-org.mozilla.firefox \
+com.brave.Browser \
 com.google.Chrome \
 com.microsoft.Edge \
 org.telegram.desktop \
@@ -24,7 +24,6 @@ flatpak install -y flathub \
 com.raggesilver.BlackBox \
 com.bitwarden.desktop \
 net.cozic.joplin_desktop \
-org.gnome.Boxes \
 org.gnu.pspp \
 org.gnucash.GnuCash \
 org.videolan.VLC \
@@ -41,6 +40,7 @@ de.haeckerfelix.Fragments
 ## work
 flatpak install -y flathub \
 org.libreoffice.LibreOffice \
+org.onlyoffice.desktopeditors \
 com.visualstudio.code \
 org.remmina.Remmina \
 org.filezillaproject.Filezilla
