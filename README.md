@@ -67,6 +67,12 @@ Contianer Podman for work purpose
     $ distrobox-export --app code
     ```
 
+* create symlink for .gitconfig and .ssh folder
+    ```
+    $ ln -s /var/home/fariz/.gitconfig /var/home/fariz/distrobox/ubuntu-22.04/ && \
+    ln -s /var/home/fariz/.ssh /var/home/fariz/distrobox/ubuntu-22.04/
+    ```
+
 ### Testing package
 
 Container for testing new package in fedora
