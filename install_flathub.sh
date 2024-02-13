@@ -45,7 +45,6 @@ echo "install app for work ..."
 flatpak install -y flathub \
 org.libreoffice.LibreOffice \
 org.onlyoffice.desktopeditors \
-com.visualstudio.code \
 org.remmina.Remmina \
 org.filezillaproject.Filezilla
 
@@ -53,5 +52,3 @@ org.filezillaproject.Filezilla
 echo "install app for gaming ..."
 flatpak install -y flathub \
 com.valvesoftware.Steam \
-runtime/com.valvesoftware.Steam.CompatibilityTool.Proton/x86_64/stable \
-runtime/com.valvesoftware.Steam.CompatibilityTool.Proton-GE/x86_64/stable

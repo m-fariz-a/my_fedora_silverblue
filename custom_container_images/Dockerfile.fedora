@@ -1,0 +1,10 @@
+FROM fedora:latest
+
+# Update system
+RUN dnf update -y
+
+# Install utilities
+RUN dnf install -y neofetch git vim
+
+# Clean up
+RUN dnf clean all
