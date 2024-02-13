@@ -7,4 +7,5 @@ gnome-tweaks \
 unrar \
 gnome-backgrounds-extras \
 gnome-boxes edk2-ovmf swtpm-tools \
-steam-devices 
+steam-devices \
+distrobox
