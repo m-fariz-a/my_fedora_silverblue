@@ -50,7 +50,8 @@ flatpak install -y flathub \
     org.filezillaproject.Filezilla \
     io.dbeaver.DBeaverCommunity \
     org.sqlitebrowser.sqlitebrowser \
-    com.mongodb.Compass
+    com.mongodb.Compass \
+    io.podman_desktop.PodmanDesktop
 
 ## gaming
 echo "install app for gaming ..."
