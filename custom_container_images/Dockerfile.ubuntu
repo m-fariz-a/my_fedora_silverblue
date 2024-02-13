@@ -4,7 +4,7 @@ FROM quay.io/toolbx/ubuntu-toolbox:22.04
 RUN apt-get update && apt-get upgrade -y
 
 # Install utilities
-RUN apt-get install -y htop neofetch git vim nano wget gnupg ranger apt-transport-https
+RUN apt-get install -y htop neofetch git vim nano wget gnupg ranger apt-transport-https software-properties-common
 
 # Install Python
 RUN apt-get install -y python3 python3-pip python3-venv
@@ -20,6 +20,11 @@ RUN wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor 
     echo "deb [arch=amd64 signed-by=/usr/share/keyrings/vscode-archive-keyring.gpg] https://packages.microsoft.com/repos/code stable main" | tee /etc/apt/sources.list.d/vscode.list && \
     apt-get update && \
     apt-get install -y code
+
+# Add Mozilla PPA without confirmation prompt
+RUN add-apt-repository --yes ppa:mozillateam/ppa && \
+    apt-get update && \
+    apt-get install -y firefox-esr
 
 # Clean up
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
