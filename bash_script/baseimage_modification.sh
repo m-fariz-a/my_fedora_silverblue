@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Override layered packages
 rpm-ostree override remove \
     firefox \

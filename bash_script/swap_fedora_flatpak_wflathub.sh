@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # remove fedora flatpak
 flatpak uninstall -y \
     org.gnome.Extensions

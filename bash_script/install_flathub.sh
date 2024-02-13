@@ -1,3 +1,4 @@
+#!/bin/bash
 # install application that i need as flatpak
 
 ## utilities

@@ -2,19 +2,6 @@
 
 This is my documentation on how to setup my fedora silverblue.
 
-## Folder
-
-* **custom_container_images** : my custom-image container
-
-## File
-
-* **baseimage_modificatoin.sh** : Modify OS base image. I switch Firefox from the rpm-ostree to Firefox from Flathub
-
-* **swap_fedora_flatpak_wflathub.sh** : Swao all Flatpak app from fedora flatpak repo to Flathub to get more uptodate software
-
-* **install_flathub.sh** : to install all of my daily applications from flathub repo
-
-
 ## Screenshot
 
 ![ss_desktop](images/ss_desktop.png)
@@ -25,21 +12,25 @@ This is my documentation on how to setup my fedora silverblue.
 * do base image modification
 
     ```
-    $ bash baseimage_modification.sh
+    $ bash bash_script/baseimage_modification.sh
     ```
 
 * swap flatpak from fedora flatpak with flatpak from flathub (optional)
 
     ```
-    $ bash swap_fedora_flatpak_wflathub.sh
+    $ bash bash_script/swap_fedora_flatpak_wflathub.sh
     ```
 
 * install flathub
 
     ```
-    $ bash install_flathub.sh
+    $ bash bash_script/install_flathub.sh
     ```
 
+* install vscode with using layering method
+    ```
+    $ bash bash_script/vscode.sh
+    ```
 
 ## Container Setup
 
