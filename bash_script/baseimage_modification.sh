@@ -17,4 +17,5 @@ rpm-ostree install \
     gnome-boxes \
     edk2-ovmf \
     swtpm-tools \
-    steam-devices
+    steam-devices \
+    xsel xclip wl-clipboard
